@@ -1,9 +1,10 @@
 ---
 title: "Hello World"
-pubDate: 2023-12-13
+pubDate: 2023-12-08
 description: "Aqui tienen que ir el conterndi"
-image:
+image: https://api.lorem.space/image/fashion?w=640&h=480&r=3027
 tags: ["astro","javascript"]
+layout : "../../layouts/Posts.astro"
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.

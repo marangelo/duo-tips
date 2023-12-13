@@ -1,5 +1,6 @@
 ---
 import {getCollection} from "astro:content";
+import Base from "../../layouts/Base.astro";
 
 export async function getStaticPaths() {
     const posts = await getCollection('tips');
@@ -13,5 +14,6 @@ export async function getStaticPaths() {
 const post = Astro.props;
 const {Content} =  await post.render();
 ---
-
-<Content/>
+<Base title="Duo tips">
+    <Content/>
+</Base>
