@@ -10,7 +10,6 @@ const posts = (await getCollection("tips")).sort(
     (a, b)=> a.data.pubDate.valueOf() - b.data.pubDate.valueOf() 
 );
 
-console.log(posts);
 ---
 
 <Layout title="Welcome to Astro.">
